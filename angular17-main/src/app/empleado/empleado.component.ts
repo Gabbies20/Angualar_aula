@@ -12,7 +12,7 @@ export class EmpleadoComponent {
     public empleado:Empleado;
 
     constructor(){
-      this.empleado = new Empleado('Pedro',47);
+      this.empleado = new Empleado('Pedro',47,'profesor',false);
     }
 
     ngOnInit(){
