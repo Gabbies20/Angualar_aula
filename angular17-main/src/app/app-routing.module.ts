@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 //Importamos todos los componentes que vayamos a usar.
 import { EmpleadoComponent} from './empleado/empleado.component'
 import { CochesComponent} from './coches/coches.component'
+import { HomeComponent } from './home/home.component';
 
 //A continuacion definimos las rutas:
 const routes: Routes = [
